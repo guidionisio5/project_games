@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    background-color: #107c10;
+    /* background-color: #107c10; */
     background-color: black;
     display: grid;
     grid-template-columns: repeat(8, 1fr) 2fr;
@@ -43,14 +43,98 @@
 
 /* INICIO BANNER */
 
-#banner {
-    background-image: url(../img/bannerforza5.png);  
-    position: relative; 
-    background-position: center;
-    background-size: cover;
+#banner{
+    margin: 0 auto;
     width: 100%;
     height: 500px;
-    /* background-color: brown; */
+    background-color: brown;
+}
+
+/* FIM BANNER */
+
+/* INICIO GAMEPASS */
+#gamepass {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.gp-grid {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color: #003102;
+    /* background-color: #333; */
+    padding: 50px;
+    text-align: left;
+    align-items: center;
 }
 
 
+.subgrid-gp {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.logo-gp {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+
+
+/* FIM GAMEPASS */
+
+/* INICIO XCLOUD */
+
+
+
+
+
+/* FIM XCLOUD */
+
+/* INICIO JOGOS */
+
+
+
+
+
+/* FIM JOGOS */
+
+/* INICIO CONSOLES */
+
+
+
+
+
+/* FIM CONSOLES */
+
+/* INICIO ACESSORIOS */
+
+
+
+
+
+/* FIM ACESSORIOS */
+
+/* INICIO OFERTAS */
+
+
+
+
+
+/* FIM OFERTAS */
+
+/* INICIO SUPORTE */
+
+
+
+
+
+/* FIM SUPORTE */
+
+/* INICIO RODAPE */
+
+
+
+
+
+/* FIM RODAPE */

@@ -8,3 +8,28 @@
     text-decoration: none;
     color: #FFF;
 }
+
+.titulo-gp {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.descricao-gp{
+    font-size: 20px;
+    color: #FFF;
+}
+
+.botao-gp {
+    text-decoration: none;
+}
+
+.saiba-gp {
+    color: #FFF;
+    padding: 15px 30px;
+    background-color: #0CCB0B;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
