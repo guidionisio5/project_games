@@ -7,7 +7,7 @@
  /* INICIO MENU */
 
 #container {
-    height: 2000px;
+    height: 1000px;
     background-color: aqua; 
 }
 
@@ -44,26 +44,13 @@
 /* INICIO BANNER */
 
 #banner {
-    background-image: url(../img/bannerforza5.png);
-    position: relative;
+    background-image: url(../img/bannerforza5.png);  
+    position: relative; 
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 500px;
-    background-color: brown;
-
-    
-    /* width: 300px;
-    height: 300px;
-    background-image: url(../img/bannerforza5.png);
-    background-size: 300px 150px; */
-
-
-    /* background-image: url(../img/bannerforza5.png); no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-    
+    /* background-color: brown; */
 }
 
 
