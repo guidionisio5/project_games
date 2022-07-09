@@ -12,6 +12,10 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Importação do CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/typography.css">
 </head>
@@ -74,21 +78,122 @@
         <main>
             <!-- INICIO BANNER -->
             <div id="banner">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
 
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/bannerforza5.png" class="banner-img" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Forza Horizon 5</h5>
+                                <p>Jogue com PC Game Pass ou com Ultimate.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/bannermw2.png" class="banner-img" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Modern Warfare 2</h5>
+                                <p>Jogue com PC Game Pass ou com Ultimate.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/bannerhalo.png" class="banner-img" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Halo Infinite</h5>
+                                <p>Jogue com PC Game Pass ou com Ultimate.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <!-- FIM BANNER -->
+
             <!-- INICIO GAMEPASS -->
             <div id="gamepass">
-                <div class="gp-grid">
+                <div class="grid-gp">
                     <h2 class="titulo-gp">XBOX GAME PASS</h2>
-                    <p class="descricao-gp">Jogue novos jogos no primeiro dia. Além disso, jogue centenas de jogos de alta qualidade no console, PC ou nuvem. Com jogos adicionados o tempo inteiro, sempre há algo novo para jogar.</p>
-                    <a href="https://www.xbox.com/pt-BR/xbox-game-pass" class="botao-gp"><span class="saiba-gp">Saiba mais!</span></a>
+                    <p class="descricao-gp">Jogue novos jogos no primeiro dia. Além disso, jogue centenas de jogos de
+                        alta qualidade no console, PC ou nuvem. Com jogos adicionados o tempo inteiro, sempre há algo
+                        novo para jogar.</p>
+                    <a href="https://www.xbox.com/pt-BR/xbox-game-pass" class="botao-gp"><span class="saiba-gp">Saiba
+                            mais!</span></a>
                 </div>
-                <div class="subgrid-gp">
-                    <img class="logo-gp" src="img/logogp.png" alt="">
-                </div>
+                <img class="logo-gp" src="img/logogp.png" alt="">
             </div>
             <!-- FIM GAMEPASS -->
+            
+            <!-- INICIO XCLOUD -->
+
+
+
+
+
+
+            <!-- FIM XCLOUD -->
+
+            <!-- INICIO JOGOS -->
+
+
+
+
+
+            <!-- FIM JOGOS -->
+
+            <!-- INICIO CONSOLES -->
+
+
+
+
+
+            <!-- FIM CONSOLES -->
+
+            <!-- INICIO ACESSORIOS -->
+
+
+
+
+
+            <!-- FIM ACESSORIOS -->
+
+            <!-- INICIO OFERTAS -->
+
+
+
+
+
+            <!-- FIM OFERTAS -->
+
+            <!-- INICIO SUPORTE -->
+
+
+
+
+
+            <!-- FIM SUPORTE -->
         </main>
         <!-- INICIO RODAPE -->
         <footer>
@@ -97,6 +202,10 @@
         <!-- FIM RODAPE -->
     </div>
 
+    <!-- Importação do JS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
 </body>
