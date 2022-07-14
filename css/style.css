@@ -4,11 +4,10 @@
     padding: 0;
 }
 
- /* INICIO MENU */
-
+/* INICIO MENU */
 #container {
-    height: 1000px;
-    background-color: aqua; 
+    height: 2000px;
+    background-color: crimson; 
 }
 
 .navbar {
@@ -38,11 +37,9 @@
 .subgrid-item:nth-child(1){
     justify-self: end;
 }
-
 /* FIM MENU */
 
 /* INICIO BANNER */
-
 .banner-img{
     max-width: 100%;
     width: 100%;
@@ -51,11 +48,9 @@
     background-color: black;
     /* margin: 0 10%; */
 }
-
 /* FIM BANNER */
 
 /* INICIO GAMEPASS */
-
 #gamepass {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -65,29 +60,41 @@
     display: grid;
     grid-template-rows: repeat(3,1fr);
     background-color: #003102;
-    /* background-color: #333; */
-    padding: 50px;
-    text-align: left;
+    /* background-color: #333; */ 
+    text-align: center;
     align-items: center;
 }
 
 .logo-gp {
     padding: 50px;
     max-width: 100%;
-    max-height: 500px;
+    max-height: auto;
     background-color: #003102;
 }
-
 /* FIM GAMEPASS */
 
-/* INICIO XCLOUD */
+/* INICIO CLOUD GAMING */
 
+#cloudgaming{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
+.logo-cg{
+    padding: 50px;
+    max-width: 100%;
+    max-width: auto;
+    background-color: #181B21;
+}
 
-
-
-
-/* FIM XCLOUD */
+.grid-cg{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background-color: #181B21;
+    text-align: center;
+    align-items: center;
+}
+/* FIM CLOUD GAMING */
 
 /* INICIO JOGOS */
 
